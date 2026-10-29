@@ -25,7 +25,8 @@
 | 工具 | 功能 | 入口 |
 | --- | --- | --- |
 | 郵局物流單套印 | 在瀏覽器填寫郵寄資料，支援單張／整頁列印與套印位置校正。 | [線上使用](https://post-label.tw-chengde.com/) |
-| 誠得隨機抽籤系統 | 輸入抽獎名單、自訂獎項與數量，隨機產生中獎結果。 | [查看原始碼](https://github.com/tw-chengde/lucky-draw) |
+| 蝦皮縮網址產生器 | 將蝦皮商品網址轉為短連結，支援備註、複製與分享。 | [https://shopeeurl.tw-chengde.com/](https://shopeeurl.tw-chengde.com/) |
+| 誠得隨機抽籤系統 | 輸入抽獎名單、自訂獎項與數量，隨機產生中獎結果。 | [https://luckdraw.tw-chengde.com/](https://luckdraw.tw-chengde.com/) |
 | 便利帶自動叫件（call-courier） | 透過雲端排程自動登入並呼叫快遞，依政府辦公日曆跳過放假日。 | [查看原始碼](https://github.com/tw-chengde/call-courier) |
 
 ## 技術與實作
