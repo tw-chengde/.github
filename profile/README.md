@@ -1,12 +1,20 @@
+<div align="center">
+
 # 誠得有限公司｜CHENG DE CO., LTD.
 
-> We do what you need.
+**We do what you need.**
+
+整合行銷 · 創意製作 · 程式開發 · 電商營運
+
+[官方網站](https://tw-chengde.com/) · [關於誠得](https://tw-chengde.com/about/) · [合作洽詢](https://tw-chengde.com/contact/)
+
+</div>
+
+---
 
 誠得是一支位於臺灣雲林虎尾的整合服務團隊，結合行銷、創意製作、程式開發與電商營運，協助品牌從策略規劃走到實際執行。
 
 我們也把日常營運中的需求做成網站、管理後台與自動化工具，讓訂單處理、出貨與行銷工作更有效率。這個 GitHub 組織記錄了我們在這些領域的開發與實作。
-
-[官方網站](https://tw-chengde.com/) · [關於誠得](https://tw-chengde.com/about/) · [合作洽詢](https://tw-chengde.com/contact/)
 
 ## 開發與應用
 
@@ -22,18 +30,32 @@
 
 ## 公開工具與專案
 
+### 🌐 線上工具
+
+開啟瀏覽器即可使用，不需安裝。
+
 | 工具 | 功能 | 入口 |
 | --- | --- | --- |
-| 郵局物流單套印 | 在瀏覽器填寫郵寄資料，支援單張／整頁列印與套印位置校正。 | [線上使用](https://post-label.tw-chengde.com/) |
-| 蝦皮縮網址產生器 | 將蝦皮商品網址轉為短連結，支援備註、複製與分享。 | [線上使用](https://shopeeurl.tw-chengde.com/) |
-| 誠得隨機抽籤系統 | 輸入抽獎名單、自訂獎項與數量，隨機產生中獎結果。 | [線上使用](https://luckdraw.tw-chengde.com/) |
-| 便利帶自動叫件（call-courier） | 透過雲端排程自動登入並呼叫快遞，依政府辦公日曆跳過放假日。 | [查看原始碼](https://github.com/tw-chengde/call-courier) |
+| **郵局物流單套印** | 在瀏覽器填寫郵寄資料，支援單張／整頁列印與套印位置校正。 | [線上使用](https://post-label.tw-chengde.com/) |
+| **蝦皮縮網址產生器** | 將蝦皮商品網址轉為短連結，支援備註、複製與分享。 | [線上使用](https://shopeeurl.tw-chengde.com/) |
+| **誠得隨機抽籤系統** | 輸入抽獎名單、自訂獎項與數量，隨機產生中獎結果。 | [線上使用](https://luckdraw.tw-chengde.com/) · [原始碼](https://github.com/tw-chengde/lucky-draw) |
+
+### ⚙️ 開源自動化專案
+
+以雲端排程執行的例行作業，原始碼公開。
+
+| 專案 | 功能 | 入口 |
+| --- | --- | --- |
+| **便利帶自動叫件**<br>`call-courier` | 透過雲端排程自動登入並呼叫快遞，依政府辦公日曆跳過放假日。 | [查看原始碼](https://github.com/tw-chengde/call-courier) |
+| **LINE 禮物待填地址提醒**<br>`line-gift-pending-address` | 找出 LINE 禮物已付款、收禮人尚未填寫地址的訂單，於下單滿 5 天、8 天時寄信提醒送禮人，並彙整成每日統整信。 | [查看原始碼](https://github.com/tw-chengde/line-gift-pending-address) |
 
 ## 技術與實作
 
-- **網頁與後台**：TypeScript、React／Next.js、Vue／Nuxt。
-- **自動化與桌面工具**：Python、Playwright、Electron。
-- **雲端部署**：Cloudflare、Google Cloud。
+| 類別 | 使用技術 |
+| --- | --- |
+| 網頁與後台 | TypeScript、React／Next.js、Vue／Nuxt |
+| 自動化與桌面工具 | Python、Rust、Playwright、Electron |
+| 雲端部署 | Cloudflare、Google Cloud |
 
 ## 品牌服務與合作
 
