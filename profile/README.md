@@ -30,6 +30,7 @@
 | **折讓單產生器** | 填寫退回或折讓資料，自動計算金額與稅額，下載二聯或四聯 A4 PDF。 | [線上使用](https://creditnote.tw-chengde.com/) |
 | **我的 IP 查詢** | 自動顯示目前 IP 位址、地理位置、網路業者與時區。 | [線上使用](https://findip.tw-chengde.com/) |
 | **IG 影片下載** | 貼上公開 Instagram Reels 或影片貼文網址，解析並下載 MP4，支援手機與電腦瀏覽器。 | [線上使用](https://igdownload.tw-chengde.com/) |
+| **Emoji 好好用（表情符號搜尋與複製）** | 依分類瀏覽表情符號，支援 12 種語言搜尋、一鍵複製、收藏與膚色切換。 | [線上使用](https://emoji.tw-chengde.com/) |
 
 ### ⚙️ 開源自動化專案
 
