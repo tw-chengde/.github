@@ -22,6 +22,7 @@
 
 | 工具 | 功能 | 入口 |
 | --- | --- | --- |
+| **主動式 ETF 持股追蹤** | 彙整各投信公告的台股主動式 ETF 持股，追蹤每日新增、加碼、減碼與出清，並可依個股查詢。 | [線上使用](https://etf.tw-chengde.com/) |
 | **郵局物流單套印** | 在瀏覽器填寫郵寄資料，支援單張／整頁列印與套印位置校正。 | [線上使用](https://post-label.tw-chengde.com/) |
 | **蝦皮縮網址產生器** | 將蝦皮商品網址轉為短連結，支援備註、複製與分享。 | [線上使用](https://shopeeurl.tw-chengde.com/) |
 | **誠得隨機抽籤系統** | 輸入抽獎名單、自訂獎項與數量，隨機產生中獎結果。 | [線上使用](https://luckdraw.tw-chengde.com/) · [原始碼](https://github.com/tw-chengde/lucky-draw) |
@@ -31,6 +32,7 @@
 | **我的 IP 查詢** | 自動顯示目前 IP 位址、地理位置、網路業者與時區。 | [線上使用](https://findip.tw-chengde.com/) |
 | **IG 影片下載** | 貼上公開 Instagram Reels 或影片貼文網址，解析並下載 MP4，支援手機與電腦瀏覽器。 | [線上使用](https://igdownload.tw-chengde.com/) |
 | **Emoji 好好用（表情符號搜尋與複製）** | 依分類瀏覽表情符號，支援 12 種語言搜尋、一鍵複製、收藏與膚色切換。 | [線上使用](https://emoji.tw-chengde.com/) |
+| **PDF Studio｜PDF 工具箱** | 提供 28 種 PDF 工具，支援合併、拆分、格式轉換、OCR 文字辨識與數位簽署，檔案在瀏覽器內處理。 | [線上使用](https://pdf.tw-chengde.com/) |
 
 ### ⚙️ 開源自動化專案
 
@@ -46,7 +48,7 @@
 除了上面公開的工具，我們也為自己與合作品牌開發內部系統，更多案例可參考[程式開發服務](https://tw-chengde.com/development)：
 
 - **電商管理系統**：整合 momo、mo 店+ 等多通路訂單與銷售統計，支援併單、揀貨、出貨與商品 SKU 對照。
-- **平台與通知串接**：透過 LINE 機器人查詢訂單與營收、完成轉單及寄送出貨單，並自動寄發 LINE 禮物地址填寫提醒。
+- **LINE 訂單轉單機器人**：在 LINE 查詢 momo、mo 店+ 與樂天的未出貨訂單及本月營收，支援出貨確認、列印並寄送出貨單，以及推播處理結果。[了解 LINE 訂單轉單機器人](https://tw-chengde.com/momo)
 - **行銷內容排程**：[PTT 自動排程系統](https://tw-chengde.com/ptt-system)等推文與發文排程工具。
 - **品牌網站**：建置品牌資訊、服務介紹與合作洽詢入口。
 
